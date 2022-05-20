@@ -1,0 +1,19 @@
+{
+  "name": "linkvertise-bypass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^3.0.0",
+    "console-title": "^1.1.0",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2",
+    "open": "^8.4.0"
+  }
+}
