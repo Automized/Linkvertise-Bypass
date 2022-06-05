@@ -114,7 +114,7 @@ async function Bypass(link) {
         },
         data: {
             "type": "cq",
-            "token": 'R1kMBge9y6wO9rGzAG+Mdl3M9/61duUKUayHJ/wspxEcE1+sqMRWa70I4oMMp3H1La4=' //if this breaks then contact me :)
+            "token": 'YPYteZSkFn4FSK4wd9yHnwaxvSPB2PPyM/jJoEeVO8/q7EIVb4kd4rW2O3OVMCd2eBQ=' //if this breaks then contact me :)
         }
     }).catch((err) => {
         return console.log(err)
