@@ -1,5 +1,5 @@
 # Linkvertise-Bypass
-PATCHED AT THE CURRENT MOMENT
+PATCHED AT THE CURRENT MOMENT<br /><br />
 Bypassing all of the annoying ads and gives you the destination right away (In milliseconds)
 
 Please show some ❤️ <3<br /><br />
