@@ -93,6 +93,19 @@ async function Bypass(link) {
 
     const UT = info.data.user_token
 
+    const token_request = await axios({
+        method: "GET",
+        url: "https://paper.ostrichesica.com/ct?id=14473",
+        headers: {
+            referer : "https://linkvertise.com/"
+        }
+    }).catch((err) => {
+        return console.log(err)
+    })
+
+    const token_data = token_request.data
+    const cq_token = token_data.substring(token_data.search("\"jsonp") + 9,token_data.search("req") - 3)
+
     const validation = await axios({
         method: "POST",
         url: `https://publisher.linkvertise.com/api/v1/redirect/link/${path}/traffic-validation?X-Linkvertise-UT=${UT}`,
@@ -114,7 +127,7 @@ async function Bypass(link) {
         },
         data: {
             "type": "cq",
-            "token": 'YPYteZSkFn4FSK4wd9yHnwaxvSPB2PPyM/jJoEeVO8/q7EIVb4kd4rW2O3OVMCd2eBQ=' //if this breaks then contact me :)
+            "token": cq_token //if this breaks then contact me :)
         }
     }).catch((err) => {
         return console.log(err)
