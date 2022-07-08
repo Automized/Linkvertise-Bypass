@@ -110,20 +110,7 @@ async function Bypass(link) {
         method: "POST",
         url: `https://publisher.linkvertise.com/api/v1/redirect/link/${path}/traffic-validation?X-Linkvertise-UT=${UT}`,
         headers: {
-            host: 'publisher.linkvertise.com',
-            connection: 'keep-alive',
-            'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
-            accept: 'application/json',
-            'content-type': 'application/json',
-            'sec-ch-ua-mobile': '?0',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36',
-            'sec-ch-ua-platform': '"Windows"',
-            origin: 'https://linkvertise.com',
-            'sec-fetch-site': 'same-site',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-dest': 'empty',
-            referer: 'https://linkvertise.com/',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36',
         },
         data: {
             "type": "cq",
@@ -149,20 +136,7 @@ async function Bypass(link) {
         method: "POST",
         url: `https://publisher.linkvertise.com/api/v1/redirect/link/${path}/${type}?X-Linkvertise-UT=${UT}`,
         headers: {
-            host: 'publisher.linkvertise.com',
-            connection: 'keep-alive',
-            'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
-            accept: 'application/json',
-            'content-type': 'application/json',
-            'sec-ch-ua-mobile': '?0',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36',
-            'sec-ch-ua-platform': '"Windows"',
-            origin: 'https://linkvertise.com',
-            'sec-fetch-site': 'same-site',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-dest': 'empty',
-            referer: 'https://linkvertise.com/',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36',
         },
         data: {
             serial: Buffer.from(JSON.stringify(obj)).toString('base64'),
