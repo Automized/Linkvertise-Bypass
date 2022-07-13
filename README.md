@@ -16,7 +16,7 @@ node bypass.js
 
 Made with <3 by Automized
 
-Discord Server: https://discord.gg/ptools<br />
+Discord Server: https://discord.gg/socket<br />
 Tiktok: http://tiktok.com/@automizations
 
 ![alt text](https://im4.ezgif.com/tmp/ezgif-4-a0fbc46919.gif)
